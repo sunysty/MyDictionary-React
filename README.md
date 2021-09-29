@@ -1,6 +1,6 @@
 # 나만의 사전
-> - 단어, 설명, 예시를 등록하고 목록을 볼수있습니다.
-> - <a href="http://sunysty.shop.s3-website.ap-northeast-2.amazonaws.com/">프로젝트 바로가기</a>
+> 단어, 설명, 예시를 등록하고 목록을 볼 수 있는 어플리케이션입니다.
+> <a href="http://sunysty.shop.s3-website.ap-northeast-2.amazonaws.com/">프로젝트 바로가기</a>
 
 <br/><br/>
 
