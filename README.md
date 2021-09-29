@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# 나만의 사전
+> - 단어, 설명, 예시를 등록하고 목록을 볼수있습니다.
+> - <a href="http://sunysty.shop.s3-website.ap-northeast-2.amazonaws.com/">프로젝트 바로가기</a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/><br/>
 
-## Available Scripts
+## 페이지 미리보기
+<img src="https://user-images.githubusercontent.com/67423755/135304720-5c2e027f-965f-4cf1-be63-6f644f351230.gif" style="width:300px; display:inline-flex;" alt="web"/>
 
-In the project directory, you can run:
+#### MyDictionary.js
+<img src="https://user-images.githubusercontent.com/67423755/135302684-8e8952e1-360b-41ad-89c4-e065739da32b.png" style="width:300px; display:inline-flex;" alt="myDictionary"/>
 
-### `yarn start`
+#### AddWord.js
+<img src="https://user-images.githubusercontent.com/67423755/135303134-e793764c-2216-4459-af9a-59486c65f21b.png" style="width:300px; display:inline-flex;" alt="addWord"/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br/><br/>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 작업조건
+#### MyDictionary.js
+- 게시글 목록을 화면에 그리기 (각각 뷰는 카드 뷰로 만들기)
+- 게시글 내의 예시는 파란 글씨로 보여주기
+- 게시글 목록을 리덕스에서 관리하기
+- 게시글 목록을 파이어스토어에서 가져오기
 
-### `yarn test`
+#### AddWord.js
+- 게시글 작성에 필요한 input 3개를 ref로 관리하기
+- 작성한 게시글을 리덕스 내 게시글 목록에 추가하기
+- 게시글 목록을 파이어스토어에 저장하기
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/><br/>
 
-### `yarn build`
+## 기술스텍
+- 뷰 : ```React```
+- 데이터관리 : ```Redux```, ```Firebase```
+- 스타일링 : ```styled-component```
+- 배포 : ```AWS```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
