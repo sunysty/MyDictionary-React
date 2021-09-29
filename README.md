@@ -7,11 +7,20 @@
 ## 페이지 미리보기
 <img src="https://user-images.githubusercontent.com/67423755/135304720-5c2e027f-965f-4cf1-be63-6f644f351230.gif" style="width:300px; display:inline-flex;" alt="web"/>
 
+<br/>
+
 #### MyDictionary.js
 <img src="https://user-images.githubusercontent.com/67423755/135302684-8e8952e1-360b-41ad-89c4-e065739da32b.png" style="width:300px; display:inline-flex;" alt="myDictionary"/>
 
+<br/>
+
 #### AddWord.js
 <img src="https://user-images.githubusercontent.com/67423755/135303134-e793764c-2216-4459-af9a-59486c65f21b.png" style="width:300px; display:inline-flex;" alt="addWord"/>
+
+<br/><br/>
+
+## 프로젝트 기간
+```21-09-22 ~ 21-09-29```
 
 <br/><br/>
 
